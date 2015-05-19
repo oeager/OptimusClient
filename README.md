@@ -13,11 +13,11 @@
 
 使用：
 ====
-#####1.Eclipse:
->>下载jar文件，添加到项目的libs目录下。<br/>
-#####2.AndroidStudio:
->>在项目的build.gradle中加入下面这句代码:
-```gradle
+#####1.eclipse环境
+下载jar文件[download the jar](https://github.com/oeager/optimusClient/raw/master/Download/OptimusClient_1.0.0.jar),添加到项目的libs目录下。<br/>
+#####2.AndroidStudio
+在项目的build.gradle中加入下面这句代码:
+```Gradle
 dependencies {
     compile 'com.bsince.optimus:app:1.0.0'
 }
