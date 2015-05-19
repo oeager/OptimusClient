@@ -13,8 +13,15 @@
 
 使用：
 ====
-
-下载jar文件，添加到项目的libs目录下。<br/>
+#####1.Eclipse:
+>>下载jar文件，添加到项目的libs目录下。<br/>
+#####2.AndroidStudio:
+>>在项目的build.gradle中加入下面这句代码:
+```gradle
+dependencies {
+    compile 'com.bsince.optimus:app:1.0.0'
+}
+```
 
 下面是简单的使用示例。<br/>
 ###1.配置
