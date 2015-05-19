@@ -117,8 +117,6 @@ public class JsonStreamDataSet extends AbstractDataSet {
 	 *            the file to add.
 	 * @param contentType
 	 *            the content type of the file, eg. application/json
-	 * @param customFileName
-	 *            file name to use instead of real file name
 	 * @throws FileNotFoundException
 	 *             throws if wrong File argument was passed
 	 */
